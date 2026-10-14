@@ -1,0 +1,20 @@
+{
+  "name": "c-block-fold",
+  "displayName": "C Block Fold (local)",
+  "description": "Brace-matching folding ranges for C/C++ so sticky scroll can pin function headers and conditions.",
+  "version": "0.0.1",
+  "publisher": "local",
+  "private": true,
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:c",
+    "onLanguage:cpp",
+    "onLanguage:cuda-cpp"
+  ],
+  "main": "./extension.js"
+}
